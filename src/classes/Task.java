@@ -35,6 +35,7 @@ public class Task {
 
     public void markAsCompleted() {
         this.isCompleted = true;
+        System.out.println("Task " + Task.id + " completed");  // added completion log for checking
     }
 
     @Override
